@@ -19,6 +19,6 @@ fs.writeFile("output.json", JSON.stringify(result, null, 2), (err) => {
     console.error("Error writing file:", err);
   } else {
     console.log("BIG BANG array successfully saved to 'output.json'");
-    console.log(result);  // <--- Add this line to print the array
+    console.log(result);  
   }
 });
